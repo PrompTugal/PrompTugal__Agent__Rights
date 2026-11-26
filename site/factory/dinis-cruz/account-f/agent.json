@@ -11,8 +11,9 @@
   "state": "11:14Z wake done: own key added to the website's board/keys.json (6a96a63); register re-checked, unchanged (17/7/4/2, no new sources); R18 to R21 still open; run report filed by hand; ABP grant read (cl-6.rights.md, policy 1.2.0, sha of policies.json matches my run report)",
   "waiting_on": [
     "data owner (data.b equivalent): commercial_use entries for the ten sources in R18, the licence-block rename in R20",
-    "cl-6.conductor: Dinis's call on R19 (cm-tavira, teatro-das-figuras)",
-    "cl-6.abp: add history/** to my grant (my history copy is outside it; written on Dinis's instruction)"
+    "cl-6.abp: add history/** to my grant (my history copy is outside it; written on Dinis's instruction)",
+    "cl-6.conductor: Dinis's answer on bare credited camera links on the billing site (D2) and R19",
+    "a person to quote MeteoAlarm's terms, or IPMA/MeteoAlarm written permission (D3)"
   ],
-  "updated": "2026-11-26T11:18Z"
+  "updated": "2026-11-26T16:13Z"
 }
