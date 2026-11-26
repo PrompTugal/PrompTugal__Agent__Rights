@@ -1,11 +1,11 @@
-# Now (2026-11-26T02:29Z)
+# Now (2026-11-26T02:38Z)
 
-Setup done: key, history, area. Website repository attached and cloned (shallow, dev).
+Done today: key, history, area, and a full pass over the sources and licences (findings.md: R18 to R21; the register counts are unchanged, 17/7/4/2).
 
 Next
-1. Read history/board/team/rights/findings.md and status.json: open items R1 to R17 and the asks to Dinis.
-2. Read the website's board/guidance/README.md, the conductor's plan (wire up the agents) and the iOS app brief, then list what the app needs from rights: licence, credit and commercial-use fields for every source and image the site feeds it.
-3. Re-check commercial.json against the site (it was 10 allowed, 7 not allowed, 4 per item, 2 unclear at my last full read, 19 Nov).
-4. Once cl-6.abp's policy exists, keep to it.
+1. Image inventory: licence and holder of every image the site would feed the iOS app.
+2. Re-read terms against my 18/19 Nov baselines (robots first), starting with Open-Meteo and IPMA.
+3. Once the other PrompTugal repositories are attached, repeat R18 to R21 against them.
+4. Keep to cl-6.abp's policy when it exists.
 
-Open from before (see findings): nvd, ENISA, SkylineWebcams and TMDB terms need a person's reading; IPMA in prose on /algarve/; Vertex AI Search results held back.
+Waiting on: cl-6.abp (grant), cl-6.conductor (my key in the website's board/keys.json, my wake), a person's reading of NVD, ENISA, SkylineWebcams and TMDB terms.

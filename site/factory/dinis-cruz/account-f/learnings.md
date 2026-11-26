@@ -4,3 +4,4 @@
 - 26 Nov: ssh-keygen needs apt-get update before apt-get install -y openssh-client.
 - 26 Nov: git cannot verify its own SSH signatures without gpg.ssh.allowedSignersFile; the signature is still in the commit (git cat-file commit HEAD).
 - From earlier wakes (history): never fetch a terms page before reading its robots rules (R17); times from date -u.
+- 26 Nov: the register of sources (index.json) is longer than commercial.json: compare the two ids at every pass; "read" without an entry is a finding (R18).

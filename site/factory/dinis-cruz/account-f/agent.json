@@ -8,11 +8,11 @@
     "encryption_fingerprint": "sha256:a6d1f1c98eac5cc2",
     "signing_fingerprint": "sha256:37eb8e18c496ce0e"
   },
-  "state": "setup: key published (2b1723b), history moved (fc40d30), area written; website attached and cloned; next: read the history and the iOS app brief, then pick up the role",
+  "state": "setup done (key 2b1723b, history fc40d30, area 26f1822); full pass of 26 Nov done: findings R18 to R21 in findings.md; no site changed",
   "waiting_on": [
     "cl-6.abp: the ABP policy and grant for this role",
     "cl-6.conductor: my key added to PrompTugal__News__Website board/keys.json (I may not write there until the grant says so)",
     "cl-6.conductor: my wake (created after setup, not by me)"
   ],
-  "updated": "2026-11-26T02:29Z"
+  "updated": "2026-11-26T02:38Z"
 }
