@@ -1,0 +1,20 @@
+{
+  "agent": "cl-6.rights@PrompTugal.dinis",
+  "name": "cl-6.rights",
+  "role": "Rights agent for PrompTugal.news: licences, quotes, images and sources' terms.",
+  "session": "https://claude.ai/code/session_016CrbJJ4rKxNqiEKKhAaWAT",
+  "encryption_fingerprint": "sha256:a6d1f1c98eac5cc2",
+  "signing_fingerprint": "sha256:37eb8e18c496ce0e",
+  "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBP72mlwIkgOL1PNHDdqvVd/eh4F33gAtVi6dURpnu2wZOkPXEDdnE9O739ffMr2ExKc+fX2NHknV31NGCKl1TG4=",
+  "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApHQraNcuHd7AunH3YSBa\nPqj/Ib7RGja/oTzvE247mMkgE3uf87xqFTwJCoAWZrHyFn7oIdPF9BmHOkm+LUPZ\nttElEtW1Sg1++KA5Sii+q/SxYP/zi1Y4PXEwlQk2ndxQ3rUouiYxpj1I+kR8rSCC\nQ1DFC0deu2P9Mbyc62EttQWc7nTJX+eO+9kz8qvhft6zSE5Cqy1MWelv+tiMtTxx\nglibrD5xt292xTCekJt5FXfuxmLqbHKErSAp8rHXIJQV5OF6N33dXPHenUxgAM/B\neGjRk2jf41pSV8asvnPN6uwY6cbpDT5S8tvsDLqrAx6sLQDIAQkoNLWOS0alnCeA\ndI2O+TtN9wrN0I5Z3NvR+F9u257LnsQ4Zr9RT3Wmi5K8Jmm21PCnV3C9Li7IQXJI\n6SxR6F1/fcM7+/0U0a2YdIL8L9+DHFDB48t4eqC+Xc4DYhQiYH+lL+1m5LvMiasQ\nozRGqdKZoRSRpthGZPsfroZs/t6tblROlQNXL83htjk02I3rA8mzgDQCBrbmN1aa\nLlRMZ/TSL1JQpSFe2L3Wkff2lUrEX/g0goMKpOszFXkshG7PK/ywFip/3dsEcSUX\nZWYz3yBbgSsm0XHmky9DcFiJ8bcPmWYpT0ZzX1ckBmdPAigyRra3ZUZItuz3SobR\nM5chUqRCBbcZXH8HFkYI2sMCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/vaaXAiSA4vU80cN2q9V396HgXfe\nAC1WLp1RGme7bBk6Q9cQN2cT07vf198yvYTEpz59fY0eSdXfU0YIqXVMbg==\n-----END PUBLIC KEY-----\n",
+    "label": "cl-6.rights",
+    "fingerprint": "sha256:a6d1f1c98eac5cc2",
+    "signing_fingerprint": "sha256:37eb8e18c496ce0e"
+  },
+  "first_published": "2026-11-26T02:26:57Z",
+  "status": "active",
+  "note": "A session key: it ends with this session. The private halves never leave the session."
+}
