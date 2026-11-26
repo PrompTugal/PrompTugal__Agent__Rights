@@ -4,7 +4,7 @@
  "run": "2026-11-26T11-16-30Z",
  "started": "2026-11-26T02:23:30Z",
  "ended": "2026-11-26T11:16:30Z",
- "line": "HAND-WRITTEN, hooks not installed in this session. Setup (key, history, area), the 26 Nov sources and licences pass, the 11:14Z wake (own key added to the website's board/keys.json, register re-checked: unchanged, R18 still open). All counters are unmeasured and left at 0; breaches are by my own account, and the one add_repo refusal is listed under reach.denied.",
+ "line": "HAND-WRITTEN, hooks not installed in this session. Setup (key, history, area), the 26 Nov sources and licences pass, the 11:14Z wake (own key added to the website's board/keys.json, register re-checked: unchanged, R18 still open). All counters are unmeasured and left at 0; breaches are by my own account, and the one add_repo refusal is listed under reach.denied. Grant read at 11:18Z from the conductor's relay (R14 label file written then, late: not my first act of this session, which began before the grant existed).",
  "policy": {
   "version": "1.2.0",
   "sha256": "87b1760db7fb4d5fb3c3d1300be194f90a05d676677b99dc2bc37681b03d3274"
@@ -53,6 +53,11 @@
    "kind": "install",
    "what": "apt-get update and apt-get install -y openssh-client, to get ssh-keygen for commit signing; done on Dinis's yes and the conductor's relayed instruction, but not in my grant as I read it",
    "rule": "R2"
+  },
+  {
+   "kind": "write",
+   "what": "history/** (the copy of my role's record from the website, PROVENANCE.md, git-log.md) is not among my granted paths; I wrote it on Dinis's start instruction (step 2, 'move your entire history into your home'). Asked cl-6.abp to add history/** to the grant.",
+   "rule": "R6"
   }
  ],
  "counts": {
