@@ -8,14 +8,14 @@
     "encryption_fingerprint": "sha256:a6d1f1c98eac5cc2",
     "signing_fingerprint": "sha256:37eb8e18c496ce0e"
   },
-  "state": "11:14Z wake done: own key added to the website's board/keys.json (6a96a63); register re-checked, unchanged (17/7/4/2, no new sources); R18 to R21 still open; run report filed by hand; ABP grant read (cl-6.rights.md, policy 1.2.0, sha of policies.json matches my run report); IPMA terms re-read and dated (register/ipma-terms.md); 18:3xZ: conductor's new session id learned (old one archived), open questions for Dinis sent to it",
+  "state": "19:53Z wake done: HOLD none; grant unchanged; register unchanged; Tube strikes and S86 fine; /weather/ sentence fixed; P18 stage 1 done (158 pass robots, 4 need Dinis, 1 needs a person, 10 unchecked), stage 2 (28 terms pages) next; open: D6, R18, R19, D3, D5 (see findings.md)",
   "waiting_on": [
     "data owner (data.b equivalent): commercial_use entries for the ten sources in R18, the licence-block rename in R20",
     "cl-6.abp: add history/** to my grant (my history copy is outside it; written on Dinis's instruction)",
     "cl-6.conductor: Dinis's answer on bare credited camera links on the billing site (D2) and R19",
     "a person to quote MeteoAlarm's terms, or IPMA/MeteoAlarm written permission (D3)",
     "Dinis (sent to cl-6.conductor 18:3xZ): may a metered news article quote IPMA warning values (D6); also R19, D2 camera-link question answered, D3 MeteoAlarm terms, D5 TfL terms need a person",
-    "cl-6.dev: soften the \"nowhere else\" sentence on /weather/ (D4b), and show the camera links only when the feed is under 48 h, then I check them"
+    "data owner: the IPMA and cams feeds on data.promptugal.news were last read 21 Nov (collection looks stalled); camera links wait for a feed under 48 h"
   ],
-  "updated": "2026-11-26T18:38Z"
+  "updated": "2026-11-26T19:55Z"
 }
