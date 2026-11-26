@@ -1,0 +1,212 @@
+# Google APIs: terms quoted (R15), read 19 Nov 2026 about 01:15 UTC by rights@
+
+Not legal advice. Quoted from the pages as served; no agent accepts these terms (R14): only Dinis does.
+
+## Google APIs Terms of Service (https://developers.google.com/terms, last modified 9 November 2021)
+Applies to all five free APIs and, through Google Cloud, to Vertex AI Search (whose own Cloud terms, https://cloud.google.com/terms/service-terms, I have not yet read in full).
+- Content returned from the APIs: you may not "Scrape, build databases, or otherwise create permanent copies of such content, or keep cached copies longer than permitted by the cache header" and may not "Copy, translate, modify, create a derivative work of, sell, lease, lend, convey, distribute, publicly display, or sublicense to any third party" it, unless the API's documentation allows it. (Note the sentence is qualified in the full text; the exact scope per API is to be read with each API's documentation.)
+- Attribution: "You agree to display any attribution(s) required by Google as described in the documentation for the API."
+- You may not "Remove, obscure, or alter any Google terms of service or any links to or notices of those terms."
+
+## Books API (https://developers.google.com/books/terms, last modified 25 April 2012)
+- Fees: "You may not charge users any fee for the use of your application, unless you have entered into a separate agreement with Google or obtained Google's written permission." This bears on promptugal.news, the only billing site: no Books API data there.
+- Content removal on request, and contact information for rights holders to request removals.
+
+## Knowledge Graph Search API (https://developers.google.com/knowledge-graph/terms, last modified 8 December 2015)
+- "By using this API, you consent to be bound by the Google APIs Terms of Service." Nothing more found on the page about commercial use; to be read with the API documentation before use.
+
+## Fact Check Tools API (https://developers.google.com/fact-check/tools/api/terms, last updated 25 May 2023)
+- Claim Search: "Use of the FactCheck Claim Search API is subject to Google's API Terms of Service." Each claim review remains its publisher's (a ClaimReview): credit the publisher and link it.
+
+## PageSpeed Insights
+- The terms page at developers.google.com/speed/docs/insights/terms returned 404; terms to be found and quoted before first use on a page.
+
+## Vertex AI Search over 15 Portuguese sites
+Results are titles, snippets and links drawn from other organisations' sites: each site's own terms and robots decide whether a title or snippet may be shown, and a Google API's terms do not replace them.
+Until each of the fifteen sites' terms are quoted on the register and Dinis settles it: not shown on any page. On promptugal.news (the billing site): not shown at all, per R13, because the sites' terms are not "allowed" commercially.
+
+## commercial_use set by rights@ (proposal for data.promptugal.news's commercial.json)
+- youtube-data / replays: unclear (embedded-player condition)
+- books: not allowed (no fee may be charged; promptugal.news bills)
+- knowledge-graph-search: unclear
+- fact-check-tools: per item (each ClaimReview is its publisher's)
+- pagespeed-insights: unclear (terms not found)
+- vertex-search results: unclear, not shown on any page yet
+
+---
+
+# YouTube developer policies: quoted for the free case-study page on promptugal.news (read 19 Nov 2026 about 01:30 UTC; every page last updated 2026-11-06 UTC)
+
+Sources: https://developers.google.com/youtube/terms/developer-policies (DP), https://developers.google.com/youtube/terms/required-minimum-functionality (RMF), https://developers.google.com/youtube/terms/api-services-terms-of-service (ToS). Not legal advice; only Dinis accepts terms (R14).
+
+1. **No charging, no gating (DP, Playback Integrity):** "API Clients must not charge users to watch content in an embedded YouTube player. API Clients must not otherwise gate access to a video by requiring a user to take an action other than clicking the play button to view or continue playing YouTube audiovisual content."
+2. **Advertising and sponsorship (DP):** an API client must not "sell advertising, sponsorships, or promotions that are placed on or within YouTube audiovisual content or the YouTube player without YouTube's prior written approval; or sell advertising, sponsorships, or promotions on any page or screen that contains YouTube API Data unless other data, content, or material not obtained from YouTube appears on the same page and offers enough independent value to justify such sales if the YouTube API Data were removed."
+3. **Attribution (DP):** "You and your API Clients must not ... interfere with or obscure any attribution provided by YouTube, including attribution provided via or shown in embedded YouTube players. Your API Clients must display applicable YouTube Brand Features and any other YouTube-provided attribution on all types of devices."
+4. **Player (RMF):** "Embedded players must have a viewport that is at least 200px by 200px ... We recommend 16:9 players be at least 480 pixels wide and 270 pixels tall." "You must not display overlays, frames, or other visual elements in front of any part of a YouTube embedded player, including player controls ... or use overlays, frames or other visual elements to obscure any part of an embedded player." "You must not make changes to the YouTube player that are not explicitly described by the API documentation." "You must not use mouseovers or touch events on a YouTube player to initiate any action on the user's behalf."
+5. **Storage (DP):** non-authorized data may be stored "no longer than 30 calendar days. After 30 calendar days, the API Client must either delete or refresh the stored data." Autoplay rules are in RMF (not until visible).
+6. **YouTube's terms linked:** the ToS defines the YouTube Terms as https://www.youtube.com/t/terms; link it where the player is shown. The branding guidelines page (https://developers.google.com/youtube/terms/branding-guidelines) is to be read before the page's design is final.
+
+## Verdict on the free-page design (Dinis, via conductor.b@, 19 Nov about 01:10 UTC): GO, with these conditions
+The design is within the quoted policies **if and only if** the page:
+- **C1** is never charged and never gated: no paywall, sign-in, cookie wall, meter count or "pay to continue" between the reader and the play button (quote 1). The page is flagged free in the billing data and the gate fails any charged page that carries a YouTube embed.
+- **C2** carries **no advertising, sponsorship or promotion** on or around the player; if the "Support us" banner is shown on the page, it is a plain request for support, not a sale of advertising (quote 2). dev@ to keep ads off the page; if the site ever sells ads, this page and every YouTube page stays out of it unless other, non-YouTube content gives the page independent value (the case-study text may do that; rights@ re-checks).
+- **C3** uses YouTube's own iframe player (youtube-nocookie), at least 200px by 200px and, by recommendation, 480 by 270 for 16:9, with nothing laid over any part of it, no mouseover actions, and no change to the player beyond the documented parameters (quote 4).
+- **C4** credits YouTube and links https://www.youtube.com/t/terms next to the player, and does not hide YouTube's own attribution (quotes 3 and 6).
+- **C5** stores nothing from the API for more than 30 days (data.b@'s collector already deletes at 25).
+- **C6** does not create a metered "read" for the page in the reading log or the simulated payments model, so the bill never counts it.
+Nothing is published until dev@ shows rights@ the built page against C1 to C6; rights@ then says "published, within the policies" or names what must change. Branding guidelines to be quoted in that review.
+
+---
+
+# History sources: weather (read 19 Nov 2026 about 01:35 UTC; for "show the past", board/guidance/2026-11-19-show-the-past.md)
+
+Not legal advice. Moved here because it is the register rights@ keeps; it is not about Google. Quotes as served.
+
+## IPMA (past forecasts, observations, normals)
+Source: https://www.ipma.pt/en/siteinfo/index.html (terms of the site, "Protection of intellectual property"); api.ipma.pt's page states "Copyright © IPMA 2017" and names the operator's webmaster contact on that page.
+- "The User can freely copy, import or use information or national symbols in this site for personal or public use, provided that for no purposes of profit or offence. The User must always mention the source of the information."
+- Nothing in these terms says either way about keeping an archive or republishing a past reading; they allow public use that is not for profit, with the source named. So: keeping and showing IPMA's past forecasts and observations **on the free sites is within these terms, with IPMA named as the source** (the free sites bill nothing). **On promptugal.news, which bills, it is not allowed** (profit). Same for IPMA's climate normals and reports when they are on ipma.pt. Whether a past reading counts as "information in this site" or the open-data API is a question for IPMA; outreach@ may ask the questions on the record (a person sends).
+- commercial_use: not allowed (unchanged).
+
+## Open-Meteo, historical archive (and forecasts)
+Source: https://open-meteo.com/en/terms (read 19 Nov).
+- "By using the Free API for non-commercial use you agree to following terms: Less than 10'000 API calls per day, 5'000 per hour and 600 per minute. You may only use the free API services for non-commercial purposes. You accept to the CC-BY 4.0 licence, as specified in the licence conditions."
+- So the historical archive may be read through the free API for the free sites only, credited as CC BY 4.0 (the licence page is https://open-meteo.com/en/license), within the call limits. **Not on promptugal.news** (commercial: a paid plan would be needed, and that is Dinis's to decide, money). Not accepted by any agent (R14): a free API with a rate limit does not need an account, but data.b@ must stay within the limits.
+- commercial_use: not allowed (unchanged).
+
+## What the rule gives
+- The full weather history (observed days, "what we said beside what happened") lives on weather.promptugal.news and data.promptugal.news (free), each row carrying its read time, source, licence link and the collection it came from, as the guidance says.
+- Our own record of what we forecast is ours (CC BY 4.0), but it holds IPMA's values: the archive of "what we showed" is a copy of IPMA's forecasts, so it too stays off promptugal.news.
+- promptugal.news may link to the weather history; it shows no history values from IPMA or Open-Meteo.
+
+---
+
+# YouTube branding guidelines, quoted (read 19 Nov 2026 about 01:40 UTC; page last updated 2025-08-20 UTC): https://developers.google.com/youtube/terms/branding-guidelines
+
+- "While no special approval is needed to use YouTube APIs, any YouTube logo used in an application must link back to YouTube content or a YouTube component within the application."
+- "Do not display any YouTube branding image as the most prominent element on your page."
+- A logo "must not be altered or partially covered" and must not be used in ways that "imply an association with or endorsement of any other product, service, event, sponsorship, or organization" or suggest "that editorial content was authored by YouTube".
+- "You must never use the YouTube name or any abbreviation, acronym, or variant of the word YouTube, such as YT or You-Tube in conjunction with the overall name of your application." Do not "imitate YouTube's trade dress".
+
+# Review of designer@'s spec (board/spec-the-free-replays-page.md, dev commit a9d2ed39c) against C1 to C6: DESIGN GO, page not yet built
+- FR1, FR2, FR5 (C1, C2, C6): within the policies. The "Free to watch" note is a statement, not a promotion; it must not become a sale of anything. "No other site's promotion block" also covers the sites bar's previews: keep them out of the player's viewport.
+- FR3 (C3): YouTube's iframe, 640x360, never under 200 px tall, no overlay, no autoplay: within RMF. Check on the built page: the iframe is 200 px by 200 px at least in both dimensions (a 288 x 200 phone player is fine); no element positioned over it (including the sticky masthead or cookie notice).
+- FR4 (C4): text credit and the YouTube Terms link: within the policies. No logo is needed; if one is added later it must link to YouTube content, not be the most prominent element, and not be altered or covered.
+- FR7 (C5): the 30-day statement is right.
+- Wording: the page's name and the site's name must not carry "YouTube" or "YT" in them (the title "The free replays page" is fine; do not name it "YouTube replays" as the page's or site's own name). Calling the data "the official replay" is within bounds: it is the organiser's own channel.
+Verdict: GO to build. Final say ("published, within the policies") only after dev@'s built page is shown against C1 to C6 and the free-page flag and the gate check (no charged page carries a YouTube embed) exist.
+
+---
+
+# YouTube thumbnails on videos.promptugal.news (a free site), asked by videos.b@; answered 19 Nov 2026 about 01:45 UTC
+
+Quoted from the Developer Policies (Branding) and Required Minimum Functionality, read 19 Nov:
+- "Any API Client page or feature that displays YouTube content – including, without limitation, search results, YouTube videos, channels, playlists, thumbnails, and YouTube players – must make clear to the viewer that YouTube is the source of the relevant content by displaying YouTube Brand Features in accordance with the requirements below and the YouTube Branding Guidelines." The ToS defines Brand Features as "the trade names, trademarks, service marks, logos, domain names, and other distinctive brand features of YouTube."
+- "Any YouTube thumbnail that initiates a playback must be at least 120 pixels wide and 70 pixels tall." (RMF)
+- "You must not remove, obscure, alter, or disable any links that appear in YouTube players or in API Data." (DP)
+- Referer: for the embedded player, API clients "need only ensure they are not setting the Referrer-Policy in a way that suppresses the Referer value"; YouTube recommends strict-origin-when-cross-origin. (RMF; this is about the player.)
+
+Answer: **GO with conditions** for the hotlinked thumbnail https://i.ytimg.com/vi/<id>/hqdefault.jpg.
+- T1 Unaltered (no crop, filter or overlay that changes it), at least 120 x 70, linked to the video or swapped for the player on play: within the policies. `referrerpolicy=no-referrer` on the image only is not about the player and is fine; **the iframe player must not get no-referrer**: leave it at the browser default or strict-origin-when-cross-origin.
+- T2 Nothing stored or re-hosted: within the policies (and the 30-day rule).
+- T3 Credit: the wording "the preview image comes from YouTube" names the source in text. YouTube's name is a "trade name", so a text credit is a Brand Feature of a kind; but the policies say Brand Features "in accordance with the YouTube Branding Guidelines", which offer a logo or icon. Safe course: show the official YouTube icon or logo from YouTube's brand site, linked to YouTube content, not the most prominent element, unaltered. The text credit alone is the weaker reading; where the icon is not yet available, ship the text credit and add the icon as soon as it is. Do not use the YouTube name in the site's own name.
+- T4 No image from any other source shown as if it were YouTube's, and no YouTube image mixed with other sources without each labelled.
+Free site only; never on promptugal.news's charged pages (C1).
+
+---
+
+# ENISA / EUVD (asked by conductor.b@ for cyber.b@'s pulse on cyber.promptugal.news); read 2026-11-19T13:27Z by rights@
+
+Not legal advice. Result: **R15 not met, so no go yet.** What was read and what could not be.
+- https://euvd.enisa.europa.eu/robots.txt (the EUVD host, which serves the database and its API): "User-agent: * Disallow:" (an empty Disallow: nothing is refused). That host's robots permits machine reading.
+- https://www.enisa.europa.eu/robots.txt (ENISA's main website, where its general legal notice lives): lists ClaudeBot, Claude-User, Claude-SearchBot, Claude-Web, anthropic-ai, GPTBot, PerplexityBot and other AI agents together in one group, which is how a Disallow rule is written. This is why security@ withdrew its clearance for ENISA.
+- EUVD's own legal notice (euvd.enisa.europa.eu/legal-notice) is a JavaScript page that returns the application shell, not text: it cannot be quoted by machine.
+- **A slip of mine:** while looking for the legal notice I fetched one page of www.enisa.europa.eu (its "about-enisa/legal-notice" page, HTTP 200) with plain curl before I had read that host's robots rules in full. I discarded it and quote nothing from it. I take it as a breach of my own check 6 (refusals respected) and have not read further on that host.
+- So the legal notice of ENISA and EUVD is **not quoted**. A person must read it (in a browser) and quote the clause on reuse and the credit wanted. Until then the aggregates on cyber.promptugal.news rest on cyber.b@'s reading, and "allowed" is not confirmed.
+- commercial_use for EUVD: unclear (free cyber site only; never promptugal.news).
+
+---
+
+# Algarve cameras: SkylineWebcams and MEO BeachCam (asked by conductor.b@; read 2026-11-19T17:34Z by rights@)
+
+Not legal advice. Register entries; no agent accepts terms (R14).
+
+## MEO BeachCam (https://beachcam.meo.pt/termos-e-condicoes/, HTTP 200; robots.txt "User-agent: * Allow: /")
+- "A retransmissão ou disponibilização das transmissões em direto das livecams em websites, aplicações ou plataformas de terceiros depende de autorização prévia e expressa dos respetivos titulares, salvo nos casos legalmente permitidos." (Retransmitting or making the live streams available on third-party websites, apps or platforms depends on the prior and express authorisation of their holders, except where the law allows.)
+- "O conteúdo deste site não poderá ser copiado, alterado ou distribuído, salvo com autorização expressa do Beachcam." (the content may not be copied, altered or distributed without Beachcam's express authorisation); the use it does permit "não abrange a retransmissão das livecams em direto" (does not cover retransmission of the live cams).
+- Confirms live.b@'s reading: **links only**, no embed, no frame, no re-hosting, on any site. A link to the operator's own page is not retransmission. commercial_use: not allowed to retransmit anywhere; a link may sit on any page. Authorisation, if wanted, is asked of the operator on the record by a person (outreach@ drafts).
+
+## SkylineWebcams
+- robots.txt (https://www.skylinewebcams.com/robots.txt): "User-agent: * / Disallow: /click.php / Disallow: /clickb.php / Disallow: /cams/". The camera pages themselves are disallowed to machines.
+- Its terms pages (tried three likely paths) answered HTTP 403 to an automated read: **I cannot quote them from the source and did not work around it.** data.b@'s reading ("embedding only with SkylineWebcams' own embed code, unmodified; scraping and republishing banned") is therefore **not confirmed by me**.
+- What I can say: an embed with the operator's own code, unmodified, with credit and a link, loaded by the reader's browser, is the shape such terms usually allow; it needs no machine read of /cams/ by us, but **data.b@ must not read the /cams/ pages by machine** (robots) and registers each camera by hand or from the operator's own embed page. Until the terms are quoted from the source by a person, SkylineWebcams is **unclear** (R12/R15): embeds only on the free sites if Dinis settles it; never on promptugal.news. A paid page changes it: embedded commercial display is a different question the terms must answer, so keep it off promptugal.news until quoted.
+- What would settle it: a person reads the terms in a browser and gives me the quote and its link and date; or outreach@ asks the operator, on the record.
+
+---
+
+# The shared map's outline: Natural Earth via world-atlas (ISC), asked by conductor.b@; read 2026-11-19T19:45Z by rights@
+
+Not legal advice. Sources: https://raw.githubusercontent.com/topojson/world-atlas/master/LICENSE (read 2026-11-19T19:45Z) and design/shared-map/v1.0.0/ptmap.js's header.
+- world-atlas's licence is ISC: "Copyright 2013-2019 Michael Bostock. Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies." Commercial use is allowed (promptugal.news included). The data under it is Natural Earth, which is public domain (no notice required; a credit is courteous).
+- ptmap.js 1.0.0's header carries the copyright line and a **shortened** permission notice: the grant and the condition, then "THE SOFTWARE IS PROVIDED \"AS IS\"." The warranty disclaimer's full wording is left out. The condition asks that "this permission notice appear in all copies": an abridged notice is not clearly that, and design/shared-map/build.mjs says the licence text is "kept in ptmap.js's header", which it is only in part.
+- **Verdict on the two lows:** carry the full ISC text (the nine-line licence above) in ptmap.js 1.0.1's header, or link it from a licences page that every site's footer reaches; **or** rebuild the outline straight from Natural Earth's own public-domain file and drop the ISC dependency (then no notice is needed). Either one is within the licence. 1.0.0 is fine to vendor now on the free sites and on promptugal.news (ISC allows commercial use) so long as 1.0.1 follows; the gap is a small notice gap, not a commercial one.
+- commercial_use: allowed.
+
+---
+
+# UK Contracts Finder (new source "contracts-finder" on data.promptugal.news), read 2026-11-19T20:46Z by rights@
+
+Not legal advice. Source: https://www.contractsfinder.service.gov.uk/Home/TermsAndConditions (HTTP 200; its robots.txt path returned a normal page, not a rule file, so no robots rule found).
+- "Most content on Contracts Finder and Find a Tender is subject to Crown copyright protection and is published under the Open Government Licence (OGL). Some content is exempt from the OGL ... Departmental logos and crests are also exempt." The page footer: "All content is available under the Open Government Licence v3.0 except where otherwise stated. © Crown copyright."
+- "You can reproduce content published on Contracts Finder and Find a Tender under the OGL as long as you follow the licence's conditions."
+- The terms also say "You must agree to these to use the Contracts Finder and Find a Tender services": no agent accepts them (R14). Reading the public feeds is use of the service, so Dinis should be aware of this; I have asked nothing of the site.
+- OGL v3.0 allows commercial use, with the attribution statement ("Contains public sector information licensed under the Open Government Licence v3.0"). So commercial_use "allowed" is right, but the licence and holder on data.promptugal.news's entry are wrong: see R13.
+
+# Cameras (update to R11, 2026-11-19T20:46Z): board/guidance/2026-11-19-cameras-as-links-and-the-map.md is on dev
+Dinis's word, 19 Nov about 17:40 UTC: MEO BeachCam's 21 cameras and SkylineWebcams (Faro, Portimão marina) are **credited links only**; nothing embedded, re-hosted, recorded or analysed; "we embed or show in full only what we have full right to use". This matches the terms I quoted for MEO. For SkylineWebcams the guidance records that its terms bar commercial and journalistic use without VisioRay's written authorisation; I still have not read those terms at the source (403) but links with credit are the safe course.
+
+---
+
+# Feed requests from the maestro (conductor.mistral, via conductor.b@): terms read 2026-11-21T09:54Z by rights@
+
+Not legal advice. R15: nothing is collected until these notes reach data.b@. "Unconfirmed" means I could not quote the terms from the source; it is treated as unclear (R12) and kept off promptugal.news until it is.
+
+| Feed | What I could quote | Status for promptugal.news (billing) | Free sites |
+|---|---|---|---|
+| TfL tube status and AirQuality | Same TfL Transport Data Service terms as tfl-status, tfl-jamcams: the page answers 403 to machines; "Powered by TfL Open Data" is the credit data.b@ recorded. | unconfirmed (no quote) | with credit |
+| Open-Meteo air quality (London, Lisbon) and a Lisbon forecast | Open-Meteo's terms: free API for non-commercial use only, CC BY 4.0 (quoted earlier). The air-quality page: "All users of Open-Meteo data must provide a clear attribution to CAMS ENSEMBLE data provider as well as a reference to Open-Meteo" (data: CAMS European air quality forecasts, Copernicus Atmosphere Monitoring Service). | **not allowed** | with both credits, within the call limits |
+| Carris Metropolitana alerts | robots.txt (api and www hosts) carries Cloudflare's content-signal comment block but no rule line: nothing refused. The api host answers 403 to a machine; no licence or terms page found. | unclear | only once its terms or open-data licence are quoted; ask the operator on the record |
+| Met Office London warnings (Atom) | Met Office legal page: "All information originating from the Met Office is subject to Crown Copyright"; the website terms "contain licence provisions under the terms of the UK Open Government Licence for Public Sector Information v3.0 ... other than material which we tell you is governed by different licence terms". The warnings feed's own terms are not confirmed (robots disallow /public/data/ among others). | unconfirmed | OGL v3.0 with its attribution once the feed's terms are quoted |
+| QualAr (does an official feed exist?) | qualar.apambiente.pt answers 200 (a small script page); I found no data, licence or terms text and no feed. Ask the Agencia Portuguesa do Ambiente or look on dados.gov.pt. | unclear | no |
+| EEA | EEA legal notice: its "material available on this website and for which the EEA holds the rights of use are public and may be re-used without prior permission, free of charge, for commercial or non-commercial purposes, provided that the EEA is always acknowledged as the original source of the material and that the original meaning or message of the content is not distorted"; "published under the CC-BY license". Third-party material on its site is excluded. | **allowed** for EEA-owned material, with credit | yes |
+| Copernicus EMS | Terms page not found at the paths I tried (404); emergency.copernicus.eu answers 200. Not quoted. | unconfirmed | no, until quoted |
+| ENTSO-E Transparency Platform | Terms not found by machine (pages 400/404); the platform needs a user token, which no agent may obtain by accepting terms (R14). Dinis or a person registers and quotes the terms. | unconfirmed | no |
+
+---
+
+# TfL Transport Data Service terms: quoted from data.b@'s register (2026-11-21T09:59Z)
+Read by Dinis in a browser on 18 November 2026 (tfl.gov.uk refuses machines, so no agent read the page); quoted in PrompTugal__News__Data's register/sources.json (entries tfl-jamcams, tfl-unified-api) and board/team/data/briefs/2026-11-18-dinis-commercial-line-ine-tfl.md. The page: https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service. The clause: "You are free to: Copy, publish, distribute and transmit the Information; Adapt the Information and Exploit the Information commercially and non-commercially"; based on the Open Government Licence v2.0 with TfL's amendments. Credits: "Powered by TfL Open Data" plus the Ordnance Survey and Geomni statements; at most 500 calls a minute per feed; no endorsement implied. I have not re-read the page myself (403). commercial_use: allowed, on Dinis's reading. 
+
+# Met Office warnings feed (update)
+data.b@ and I agree: the feed path under /public/data/ is disallowed by metoffice.gov.uk's robots.txt, so it is out whatever its licence says.
+
+---
+
+# TMDB (streaming page on data.promptugal.news): asked by data.b@; read 2026-11-24T07:14Z by rights@
+
+Not legal advice; no agent accepts terms (R14).
+- **What I could read:** developer.themoviedb.org's robots.txt ("User-agent: * / Allow: /") permits machine reading, and its FAQ (HTTP 200) says: "Our API is free to use for non-commercial purposes as long as you attribute TMDB as the source of the data and/or images. If you are interested in obtaining a license to use our API and/or our data/images for commercial purposes, please contact [TMDB sales]." "Your project is considered commercial if the primary purpose is to create revenue for the benefit of the owner." Attribution: "You shall use the TMDB logo to identify your use of the TMDB APIs. You shall place the following notice prominently on your application: 'This product uses the TMDB API but is not endorsed or certified by TMDB.' Any use of the TMDB logo ... shall be less prominent than the logo or mark that primarily describes the application".
+- **What I could not read:** the API terms of use (https://www.themoviedb.org/api-terms-of-use) answer 403 to machines, and www.themoviedb.org's robots.txt lists Claude and other AI agents together under a Disallow. I did not work around it. data.b@'s quoted reading of that page (updated 20 Oct 2023) is therefore **not confirmed by me**: the caching and archiving clauses are not quoted here. data.b@ should give me the exact clause text it read, with its source and date, or a person reads the page.
+- commercial_use: **not allowed** on promptugal.news (a billing site; "primary purpose ... revenue"); the data site is free, so the streaming page may stay there with the logo, the notice and the JustWatch credit.
+
+---
+
+# TMDB API terms: clauses relayed by data.b@ (2026-11-24T07:25Z). NOT verified by rights@
+Source as given: https://www.themoviedb.org/api-terms-of-use ("last updated October 20, 2023"), read 21 Nov 2026 (about 18:25 to 18:35 UTC) by a web-fetch sub-agent in data.b@'s session; the tool returns a small model's extraction, so the wording is close, not byte-checked. A person must confirm it in a browser. As relayed:
+- 1.C prohibited: "Cache, for longer than 6 months, any information obtained through or from TMDB or the TMDB APIs"; "Make derivatives of the TMDB APIs or TMDB Content"; "Sell, lease, or sublicense the TMDB APIs, access to the TMDB APIs, or TMDB Content". 1.A: the licence is "non-sublicensable".
+- 2.A commercial use includes "providing archived or cached data sets containing TMDB Content to another person or entity".
+- 1.A and 1.C: use of TMDB content for "training, a machine learning or artificial intelligence based Application" is reserved and prohibited. **So no TMDB content goes into an AI model, search index with LLM answers, or embedding on any of our sites.**
+- 1.D on termination: "promptly delete or otherwise purge all TMDB Content, including any cached content."
+- 3: use the TMDB logo and the notice "This [website ...] uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB."
+- developer.themoviedb.org/reference/movie-watch-providers: "In order to use this data you must attribute the source of the data as JustWatch."
+- Consequences: a page rebuilt at least every six months satisfies the cache limit; data.b@'s plan (ids and the visitor's own flags only in any vault) fits; the page must stay out of the LLM search answers (dev.search@) and llms.txt, which data.b@ already did.
