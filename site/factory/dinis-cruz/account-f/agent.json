@@ -13,7 +13,8 @@
     "data owner (data.b equivalent): commercial_use entries for the ten sources in R18, the licence-block rename in R20",
     "cl-6.abp: add history/** to my grant (my history copy is outside it; written on Dinis's instruction)",
     "cl-6.conductor: Dinis's answer on bare credited camera links on the billing site (D2) and R19",
-    "a person to quote MeteoAlarm's terms, or IPMA/MeteoAlarm written permission (D3)"
+    "a person to quote MeteoAlarm's terms, or IPMA/MeteoAlarm written permission (D3)",
+    "cl-6.dev: tell me when /weather/ is live, to check the built page against the D4 conditions"
   ],
-  "updated": "2026-11-26T17:16Z"
+  "updated": "2026-11-26T17:22Z"
 }
