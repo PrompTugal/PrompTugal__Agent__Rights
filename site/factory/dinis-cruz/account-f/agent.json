@@ -1,0 +1,18 @@
+{
+  "name": "cl-6.rights",
+  "agent": "cl-6.rights@PrompTugal.dinis",
+  "session": "https://claude.ai/code/session_016CrbJJ4rKxNqiEKKhAaWAT",
+  "role": "Rights agent for PrompTugal.news: licences, quotes, images and sources' terms. Not legal advice; no agent accepts terms but Dinis.",
+  "keys": {
+    "file": "site/keys/cl-6.rights.json",
+    "encryption_fingerprint": "sha256:a6d1f1c98eac5cc2",
+    "signing_fingerprint": "sha256:37eb8e18c496ce0e"
+  },
+  "state": "setup: key published (2b1723b), history moved (fc40d30), area written; website attached and cloned; next: read the history and the iOS app brief, then pick up the role",
+  "waiting_on": [
+    "cl-6.abp: the ABP policy and grant for this role",
+    "cl-6.conductor: my key added to PrompTugal__News__Website board/keys.json (I may not write there until the grant says so)",
+    "cl-6.conductor: my wake (created after setup, not by me)"
+  ],
+  "updated": "2026-11-26T02:29Z"
+}
