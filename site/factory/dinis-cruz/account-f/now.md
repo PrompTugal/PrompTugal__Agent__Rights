@@ -1,4 +1,4 @@
-# Now (2026-11-26T02:38Z)
+# Now (2026-11-26T11:16Z)
 
 Done today: key, history, area, and a full pass over the sources and licences (findings.md: R18 to R21; the register counts are unchanged, 17/7/4/2).
 
@@ -9,3 +9,5 @@ Next
 4. Keep to cl-6.abp's policy when it exists.
 
 Waiting on: cl-6.abp (grant), cl-6.conductor (my key in the website's board/keys.json, my wake), a person's reading of NVD, ENISA, SkylineWebcams and TMDB terms.
+
+Wake of 11:14Z: HOLD.md absent; key added to the website (6a96a63); commercial.json and the sources index unchanged since 02:50Z; two new articles (S85, A5) checked: own text CC BY 4.0, A5 credits Eurostat with dataset code and date, S85's cited studies not re-read. Run report: runs/cl-6.rights/.
