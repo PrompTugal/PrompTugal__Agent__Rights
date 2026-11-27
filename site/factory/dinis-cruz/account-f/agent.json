@@ -8,7 +8,7 @@
     "encryption_fingerprint": "sha256:a6d1f1c98eac5cc2",
     "signing_fingerprint": "sha256:37eb8e18c496ce0e"
   },
-  "state": "19:53Z wake done: HOLD none; grant unchanged; register unchanged; Tube strikes and S86 fine; /weather/ sentence fixed; P18 stage 1 done (158 pass robots, 4 need Dinis, 1 needs a person, 10 unchecked), stage 2 (28 terms pages) next; open: D6, R18, R19, D3, D5 (see findings.md)",
+  "state": "08:53Z 27 Nov wake done: HOLD none; register unchanged; P18 stage 1 and 2 done (stage 3, the 145 hosts without terms, next); open: D6, R18, R19, D3, D5 (findings.md)",
   "waiting_on": [
     "data owner (data.b equivalent): commercial_use entries for the ten sources in R18, the licence-block rename in R20",
     "cl-6.abp: add history/** to my grant (my history copy is outside it; written on Dinis's instruction)",
@@ -17,5 +17,5 @@
     "Dinis (sent to cl-6.conductor 18:3xZ): may a metered news article quote IPMA warning values (D6); also R19, D2 camera-link question answered, D3 MeteoAlarm terms, D5 TfL terms need a person",
     "data owner: the IPMA and cams feeds on data.promptugal.news were last read 21 Nov (collection looks stalled); camera links wait for a feed under 48 h"
   ],
-  "updated": "2026-11-26T19:55Z"
+  "updated": "2026-11-27T08:57Z"
 }
