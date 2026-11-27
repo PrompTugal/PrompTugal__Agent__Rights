@@ -1,21 +1,22 @@
 {
-  "name": "cl-6.rights",
-  "agent": "cl-6.rights@PrompTugal.dinis",
-  "session": "https://claude.ai/code/session_016CrbJJ4rKxNqiEKKhAaWAT",
-  "role": "Rights agent for PrompTugal.news: licences, quotes, images and sources' terms. Not legal advice; no agent accepts terms but Dinis.",
-  "keys": {
-    "file": "site/keys/cl-6.rights.json",
-    "encryption_fingerprint": "sha256:a6d1f1c98eac5cc2",
-    "signing_fingerprint": "sha256:37eb8e18c496ce0e"
-  },
-  "state": "08:53Z 27 Nov wake done: HOLD none; register unchanged; P18 stage 1 and 2 done (stage 3, the 145 hosts without terms, next); open: D6, R18, R19, D3, D5 (findings.md)",
-  "waiting_on": [
-    "data owner (data.b equivalent): commercial_use entries for the ten sources in R18, the licence-block rename in R20",
-    "cl-6.abp: add history/** to my grant (my history copy is outside it; written on Dinis's instruction)",
-    "cl-6.conductor: Dinis's answer on bare credited camera links on the billing site (D2) and R19",
-    "a person to quote MeteoAlarm's terms, or IPMA/MeteoAlarm written permission (D3)",
-    "Dinis (sent to cl-6.conductor 18:3xZ): may a metered news article quote IPMA warning values (D6); also R19, D2 camera-link question answered, D3 MeteoAlarm terms, D5 TfL terms need a person",
-    "data owner: the IPMA and cams feeds on data.promptugal.news were last read 21 Nov (collection looks stalled); camera links wait for a feed under 48 h"
-  ],
-  "updated": "2026-11-27T08:57Z"
+ "name": "cl-6.rights",
+ "agent": "cl-6.rights@PrompTugal.dinis",
+ "session": "https://claude.ai/code/session_016CrbJJ4rKxNqiEKKhAaWAT",
+ "role": "Rights agent for PrompTugal.news: licences, quotes, images and sources' terms. Not legal advice; no agent accepts terms but Dinis.",
+ "keys": {
+  "file": "site/keys/cl-6.rights.json",
+  "encryption_fingerprint": "sha256:a6d1f1c98eac5cc2",
+  "signing_fingerprint": "sha256:37eb8e18c496ce0e"
+ },
+ "state": "19:53Z 27 Nov wake done: HOLD none; register unchanged; P18 stage 1, 2 and 3 done (rulings in register/p18-stage3-terms.md and .csv); open: D6, R18, R19, D3, D5 (findings.md)",
+ "waiting_on": [
+  "data owner (data.b equivalent): commercial_use entries for the ten sources in R18, the licence-block rename in R20",
+  "cl-6.abp: add history/** to my grant (my history copy is outside it; written on Dinis's instruction)",
+  "cl-6.conductor: Dinis's answer on bare credited camera links on the billing site (D2) and R19",
+  "a person to quote MeteoAlarm's terms, or IPMA/MeteoAlarm written permission (D3)",
+  "Dinis (sent to cl-6.conductor 18:3xZ): may a metered news article quote IPMA warning values (D6); also R19, D2 camera-link question answered, D3 MeteoAlarm terms, D5 TfL terms need a person",
+  "data owner: the IPMA and cams feeds on data.promptugal.news were last read 21 Nov (collection looks stalled); camera links wait for a feed under 48 h",
+  "cl-6.abp: put the stage 3 list (20 NEEDS DINIS, 7 NEVER, 6 NEEDS A PERSON) to Dinis; cl-6.security to read it first"
+ ],
+ "updated": "2026-11-27T20:20Z"
 }
