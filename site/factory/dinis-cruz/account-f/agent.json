@@ -8,7 +8,7 @@
   "encryption_fingerprint": "sha256:a6d1f1c98eac5cc2",
   "signing_fingerprint": "sha256:37eb8e18c496ce0e"
  },
- "state": "28 Nov: front-page images (3, Commons) checked PASS; MEO parked recorded; video embeds ruled; open: D6, R18, R19, D3, D5, Skyline and YouTube/Instagram one-liners",
+ "state": "19:53Z 28 Nov wake done: HOLD none; register unchanged (29; 17/7/3/2); front-page photos live and fine; open: D6, R18, R19, D3, D5, Skyline, YouTube/Instagram one-liners",
  "waiting_on": [
   "data owner (data.b equivalent): commercial_use entries for the ten sources in R18, the licence-block rename in R20",
   "cl-6.abp: add history/** to my grant (my history copy is outside it; written on Dinis's instruction)",
@@ -19,7 +19,7 @@
   "cl-6.abp: put the stage 3 list (20 NEEDS DINIS, 7 NEVER, 6 NEEDS A PERSON) to Dinis; cl-6.security to read it first",
   "Dinis (via cl-6.conductor): YouTube embed one-liner and Instagram go-ahead after a person reads Meta's terms; cl-6.security: privacy of embed players"
  ],
- "updated": "2026-11-28T17:57Z",
+ "updated": "2026-11-28T20:10Z",
  "exceptions": [
   {
    "time": "2026-11-28T16:11Z",
