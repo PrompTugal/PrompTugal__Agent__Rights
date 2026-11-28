@@ -10,3 +10,9 @@ Basis: Dinis's relayed word of 26 Nov ("credited to operator, that's fine"; a ba
 | SkylineWebcams | 2 | HELD: terms bar commercial or journalistic use without written authorisation; Dinis to say one line (below). | Read, quoted in D2 |
 
 One line for Dinis on the held two: "A bare credited link to MEO BeachCam and SkylineWebcams pages is fine on promptugal.news."
+
+## Live check (2026-11-28T09:15Z, v0.1.2427)
+
+- /algarve/portimao/: one link, AEMTG "Ondas em Direto, Praia da Rocha", to meteorologia.aemtg.pt/video, opens in a new tab; no embed, image or frame. Credit present.
+- /portugal/lisboa/: two links, APL Tejo Live "Câmara Cacilhas" and "Câmara VTS", to portodelisboa.pt/tejo-live; no embed, image or frame.
+- No MEO BeachCam or SkylineWebcams link on either page. Matches the ruling.
