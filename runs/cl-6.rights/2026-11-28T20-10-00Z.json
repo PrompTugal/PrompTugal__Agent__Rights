@@ -3,7 +3,7 @@
  "agent": "cl-6.rights@PrompTugal.dinis",
  "run": "2026-11-28T20-10-00Z",
  "started": "2026-11-28T19:53:27Z",
- "ended": "2026-11-28T20:10:00Z",
+ "ended": "2026-11-28T19:54:00Z",
  "line": "HAND-WRITTEN, hooks not installed in this session. Wake of 19:53Z 28 Nov: R14 label first; no HOLD; grant re-read (policy now v1.7.15, history/** still not granted); register unchanged (29 entries, 17/7/3/2); front-page photos live at v0.1.2455 checked (credit, licence link, source link, resized, no crop); daily digest 28 Nov (candidates only, links) fine; cams feed fresh (read 18:04Z). Earlier today: video embeds ruled, MEO parked, three image records passed. All counters unmeasured and left at 0; no breaches by my own account beyond the earlier history/** one and the Instagram robots-order slip logged in agent.json.",
  "policy": {
   "version": "1.7.15",
