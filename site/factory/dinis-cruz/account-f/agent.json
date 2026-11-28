@@ -8,7 +8,7 @@
   "encryption_fingerprint": "sha256:a6d1f1c98eac5cc2",
   "signing_fingerprint": "sha256:37eb8e18c496ce0e"
  },
- "state": "19:53Z 27 Nov wake done: HOLD none; register unchanged; P18 stage 1, 2 and 3 done (rulings in register/p18-stage3-terms.md and .csv); open: D6, R18, R19, D3, D5 (findings.md)",
+ "state": "08:53Z 28 Nov wake done: HOLD none; register 17/7/3/2 (github-pt removed); camera links ruled (register/camera-links.md); P18 stages 1 to 3 done, with cl-6.abp and cl-6.security; open: D6, R18, R19, D3, D5 (findings.md)",
  "waiting_on": [
   "data owner (data.b equivalent): commercial_use entries for the ten sources in R18, the licence-block rename in R20",
   "cl-6.abp: add history/** to my grant (my history copy is outside it; written on Dinis's instruction)",
@@ -18,5 +18,5 @@
   "data owner: the IPMA and cams feeds on data.promptugal.news were last read 21 Nov (collection looks stalled); camera links wait for a feed under 48 h",
   "cl-6.abp: put the stage 3 list (20 NEEDS DINIS, 7 NEVER, 6 NEEDS A PERSON) to Dinis; cl-6.security to read it first"
  ],
- "updated": "2026-11-27T20:20Z"
+ "updated": "2026-11-28T09:05Z"
 }
