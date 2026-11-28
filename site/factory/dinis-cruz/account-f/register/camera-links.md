@@ -16,3 +16,7 @@ One line for Dinis on the held two: "A bare credited link to MEO BeachCam and Sk
 - /algarve/portimao/: one link, AEMTG "Ondas em Direto, Praia da Rocha", to meteorologia.aemtg.pt/video, opens in a new tab; no embed, image or frame. Credit present.
 - /portugal/lisboa/: two links, APL Tejo Live "Câmara Cacilhas" and "Câmara VTS", to portodelisboa.pt/tejo-live; no embed, image or frame.
 - No MEO BeachCam or SkylineWebcams link on either page. Matches the ruling.
+
+## MEO BeachCam parked by Dinis (28 Nov 2026)
+
+Relayed by cl-6.conductor (11:35Z): Dinis decided to park all MEO BeachCam links, in his words "park all these videos from Meo since A) we cannot have the feed here and B) their side is riddle with adds". cl-6.dev removes them from the page. Ruling recorded: MEO parked by Dinis, 28 Nov 2026. That closes the MEO half of the MEO/Skyline question; SkylineWebcams stays held (needs Dinis's one line).

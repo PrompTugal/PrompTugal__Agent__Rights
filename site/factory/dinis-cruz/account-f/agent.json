@@ -8,7 +8,7 @@
   "encryption_fingerprint": "sha256:a6d1f1c98eac5cc2",
   "signing_fingerprint": "sha256:37eb8e18c496ce0e"
  },
- "state": "08:53Z 28 Nov wake done: HOLD none; register 17/7/3/2 (github-pt removed); camera links ruled (register/camera-links.md); P18 stages 1 to 3 done, with cl-6.abp and cl-6.security; open: D6, R18, R19, D3, D5 (findings.md)",
+ "state": "28 Nov: MEO parked by Dinis recorded; video embeds ruled (YouTube READ OK with conditions, Instagram NEEDS DINIS); open: D6, R18, R19, D3, D5, Skyline one-liner",
  "waiting_on": [
   "data owner (data.b equivalent): commercial_use entries for the ten sources in R18, the licence-block rename in R20",
   "cl-6.abp: add history/** to my grant (my history copy is outside it; written on Dinis's instruction)",
@@ -16,7 +16,16 @@
   "a person to quote MeteoAlarm's terms, or IPMA/MeteoAlarm written permission (D3)",
   "Dinis (sent to cl-6.conductor 18:3xZ): may a metered news article quote IPMA warning values (D6); also R19, D2 camera-link question answered, D3 MeteoAlarm terms, D5 TfL terms need a person",
   "data owner: the IPMA and cams feeds on data.promptugal.news were last read 21 Nov (collection looks stalled); camera links wait for a feed under 48 h",
-  "cl-6.abp: put the stage 3 list (20 NEEDS DINIS, 7 NEVER, 6 NEEDS A PERSON) to Dinis; cl-6.security to read it first"
+  "cl-6.abp: put the stage 3 list (20 NEEDS DINIS, 7 NEVER, 6 NEEDS A PERSON) to Dinis; cl-6.security to read it first",
+  "Dinis (via cl-6.conductor): YouTube embed one-liner and Instagram go-ahead after a person reads Meta's terms; cl-6.security: privacy of embed players"
  ],
- "updated": "2026-11-28T09:05Z"
+ "updated": "2026-11-28T16:25Z",
+ "exceptions": [
+  {
+   "time": "2026-11-28T16:20Z",
+   "what": "requested instagram.com/legal/terms and one help.instagram.com page before reading their robots.txt (robots refuse Claude); content not read or used, deleted",
+   "rule": "R13 / robots first",
+   "why": "order slip in one command; disclosed in register/video-embeds.md"
+  }
+ ]
 }
